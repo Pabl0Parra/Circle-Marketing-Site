@@ -20,12 +20,12 @@ I then started working on the Home page HTML layout, trying to clone it from the
 
 Today, I was able to completed the Home page HTML and CSS for mobile responsiveness first and then the rest of the viewports.
 
-What I found the ==most challenging== about today ==was== to code the ==media queries==, which I had a bit rusty, so it was a great way for me to practice them!.
+What I found the ==most challenging about today was to code the media queries==, which I had a bit rusty, so it was a great way for me to practice them!.
 
 What I have left to do in the Home page:
 
-- [] Hero image placement on mobile viewport.
-- [] Fix testimonials section width on desktop.
+- Hero image placement on mobile viewport.
+- Fix testimonials section width on desktop.
 
 This is the final product on desktop viewport:
 
@@ -38,8 +38,6 @@ This is the final product on desktop viewport:
 And here on mobile viewport:
 
 ![alt text](./assets/Home_mobile_1.png)
-
-here the hamburguer menu is active
 ![alt text](./assets/burguer_active.png)
 ![alt text](./assets/Home_mobile_2.png)
 ![alt text](./assets/Home_mobile_3.png)
