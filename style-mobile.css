@@ -112,8 +112,7 @@ header {
   color: #072ac8;
 }
 
-/* ---------------------HERO SECTION FIRTS MOBILE--------------------- */
-/* ------------------------------------------------------------------- */
+/* ---------------------HERO SECTION MOBILE--------------------- */
 .heroSection {
   padding: 0 30px;
 }
@@ -200,7 +199,7 @@ header {
   display: none;
 }
 
-/* ---------------------PROJECT SECTION FIRTS MOBILE--------------------- */
+/* ---------------------PROJECT SECTION MOBILE--------------------- */
 .project-section {
   margin: 100px 0;
   padding: 0 30px;
@@ -249,7 +248,7 @@ header {
   margin: 100px 0;
 }
 
-/* ---------------------OPINIONS SECTION FIRTS MOBILE--------------------- */
+/* ---------------------OPINIONS SECTION MOBILE--------------------- */
 
 .emoji1,
 .emoji2,
@@ -307,6 +306,48 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+/* ---------------------OUR SERVICES SECTION MOBILE--------------------- */
+.icon-interface {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../assets/services-section/icons/1.svg);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.icon-experience {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../assets/services-section/icons/2.svg);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.icon-develop {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../assets/services-section/icons/3.svg);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 /* --------------MEDIA QUERIES ---------------- */
@@ -459,48 +500,6 @@ header {
     width: 100px;
     height: 100px;
   }
-}
-
-/* ---------------------OUR SERVICES SECTION FIRTS MOBILE--------------------- */
-.icon-interface {
-  width: 80px;
-  height: 80px;
-  margin-top: 40px;
-  margin-left: 40px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  border-radius: 50%;
-  background-color: #ecf7ff;
-  background-image: url(../assets/services-section/icons/1.svg);
-  background-position: 50% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-.icon-experience {
-  width: 80px;
-  height: 80px;
-  margin-top: 40px;
-  margin-left: 40px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  border-radius: 50%;
-  background-color: #ecf7ff;
-  background-image: url(../assets/services-section/icons/2.svg);
-  background-position: 50% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-.icon-develop {
-  width: 80px;
-  height: 80px;
-  margin-top: 40px;
-  margin-left: 40px;
-  border-radius: 50%;
-  background-color: #ecf7ff;
-  background-image: url(../assets/services-section/icons/3.svg);
-  background-position: 50% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 1024px) {
