@@ -223,6 +223,7 @@ header {
 
 .projectsArticle {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .project-img {
@@ -345,6 +346,9 @@ header {
     grid-row-gap: 60px;
   }
 
+  .project-section h2 {
+    margin-bottom: 3rem;
+  }
   .opinions-h2 {
     font-size: 2.6em;
   }
@@ -402,6 +406,7 @@ header {
     text-align: left;
     margin: 50px 0;
     font-size: 2.3em;
+    margin-bottom: 2rem !important;
   }
 
   .projectsArticles {
