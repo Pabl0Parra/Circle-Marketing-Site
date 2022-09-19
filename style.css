@@ -12,29 +12,37 @@ body {
 
 /* ---------------------NAV BAR--------------------- */
 /* ------------------------------------------------- */
+header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar-logo > img {
+  width: 60px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.burger {
+  display: none;
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
   height: 60px;
-  position: relative;
-  z-index: 9;
-}
-
-.navBar-logo > img {
-  width: 60px;
-  height: 18px;
 }
 
 .navMenu {
   list-style: none;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 50px; /* 60px */
-  display: none;
+  gap: 50px;
 }
 
 .navMenu-item > a {
@@ -50,22 +58,22 @@ body {
   color: #072ac8;
 }
 
-.burger {
-  display: block;
+.contact-us {
+  background-color: #072ac8;
+  color: #f2f4fc;
+  font-size: 1em;
+  padding: 15px 30px;
+  text-decoration: none;
   cursor: pointer;
-  position: absolute;
-  right: 40px;
-  z-index: 10;
 }
-
 .bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   background-color: #292e47;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; */
 }
 
 /* ---------------------HERO SECTION----------------------- */
@@ -128,13 +136,65 @@ body {
 
 /* --------------MEDIA QUERIE FROM 600 WIDTH---------------- */
 @media only screen and (max-width: 600px) {
-  .burger.active .bar:nth-child(2) {
-    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    background-color: rgb(255, 255, 255);
+    padding: 0 50px;
   }
-  .burger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .burger span {
+    display: inherit;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #292e47;
+    /* transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out; */
+  }
+  .burger.active .bar:nth-child(2) {
+    opacity: 1;
   }
   .burger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  .contact-us {
+    display: none;
+  }
+
+  .navBar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 0%;
+    background-color: beige;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .navBar.active {
+    height: 40%;
+
+    transition: 1s;
+  }
+
+  .navMenu {
+    display: block;
+    margin: auto;
+    text-align: center;
+    transition: 3s;
+    opacity: 0;
+  }
+  .navBar.active ul {
+    opacity: 1;
+  }
+
+  .navMenu_item {
+    margin: 30px;
   }
 }
