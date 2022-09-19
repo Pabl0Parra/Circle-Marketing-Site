@@ -29,18 +29,18 @@ What I have left to do in the Home page:
 
 This is the final product on desktop viewport:
 
-![alt text](../../midTerm/project-assets/assets/MidTerm_firstDay_1.png)
-![alt text](../../midTerm/project-assets/assets/MidTerm_firstDay_2.png)
-![alt text](../../midTerm/project-assets/assets/MidTerm_firstDay_3.png)
-![alt text](../../midTerm/project-assets/assets/MidTerm_firstDay_4.png)
-![alt text](../../midTerm/project-assets/assets/MidTerm_firstDay_5.png)
+![alt text](./assets/MidTerm_firstDay_1.png)
+![alt text](./assets/MidTerm_firstDay_1.png)
+![alt text](./assets/MidTerm_firstDay_1.png)
+![alt text](./assets/MidTerm_firstDay_4.png)
+![alt text](./assets/MidTerm_firstDay_5.png)
 
 And here on mobile viewport:
 
-![alt text](../../midTerm/project-assets/assets/Home_mobile_1.png)
-![alt text](../../midTerm/project-assets/assets/burguer_active.png)
-![alt text](../../midTerm/project-assets/assets/Home_mobile_2.png)
-![alt text](../../midTerm/project-assets/assets/Home_mobile_3.png)
-![alt text](../../midTerm/project-assets/assets/Home_mobile_4.png)
-![alt text](../../midTerm/project-assets/assets/Home_mobile_5.png)
-![alt text](../../midTerm/project-assets/assets/Home_mobile_6.png)
+![alt text](./assets/Home_mobile_1.png)
+![alt text](./assets/burguer_active.png)
+![alt text](./assets/Home_mobile_2.png)
+![alt text](./assets/Home_mobile_3.png)
+![alt text](./assets/Home_mobile_4.png)
+![alt text](./assets/Home_mobile_5.png)
+![alt text](./assets/Home_mobile_6.png)
