@@ -47,6 +47,7 @@ header {
   display: block;
   cursor: pointer;
 }
+
 .burger span {
   display: inherit;
   width: 25px;
@@ -56,12 +57,15 @@ header {
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
 }
+
 .burger.active .bar:nth-child(2) {
   opacity: 0;
 }
+
 .burger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 .burger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
@@ -77,6 +81,7 @@ header {
   transition: 0.5s;
   background-color: #f2f4fc;
 }
+
 .navBar.active {
   height: 40%;
   transition: 0.5s;
@@ -89,12 +94,15 @@ header {
   transition: 0.5s;
   opacity: 0;
 }
+
 .navBar.active ul {
   opacity: 1;
 }
+
 .navMenu-item {
   margin: 30px;
 }
+
 .navMenu-item::marker {
   color: #f2f4fc;
 }
@@ -116,12 +124,14 @@ header {
 .heroSection {
   padding: 0 30px;
 }
+
 .heroContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -129,6 +139,7 @@ header {
   align-items: center;
   text-align: center;
 }
+
 .hero-content h1 {
   margin: 20px 0 30px 0;
   font-size: 1.8em;
@@ -136,6 +147,7 @@ header {
   line-height: 130%;
   font-weight: bold;
 }
+
 .hero-description {
   margin-bottom: 40px;
   font-size: 1em;
@@ -143,12 +155,14 @@ header {
   color: #6b708d;
   font-weight: 400;
 }
+
 .hero-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .hero-buttons-touch {
   background-color: #072ac8;
   color: #f2f4fc;
@@ -158,23 +172,28 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
+
 .hero-buttons-work {
   color: #6b708d;
   font-size: 17px;
   font-weight: 500;
   text-decoration: none;
 }
+
 .hero-buttons-work:hover {
   color: #292e47;
 }
+
 .heroMain-img {
   /* width: 560px; */
   width: 80vw;
   margin-top: 40px;
 }
+
 .heroCard {
   display: none;
 }
+
 .heroLike {
   display: none;
 }
@@ -185,6 +204,7 @@ header {
   padding: 0 30px;
   margin-top: 50px;
 }
+
 .logos-grid {
   display: grid;
   grid-auto-flow: row;
@@ -235,13 +255,16 @@ header {
   padding: 40px 20px;
   color: #6b708d;
 }
+
 .project-text h3 {
   font-size: 1.5em;
   margin-bottom: 20px;
 }
+
 .text {
   margin: 20px 30px 40px 0;
 }
+
 .learn-more {
   text-decoration: none;
   color: #072ac8;
@@ -257,9 +280,11 @@ header {
 .emoji4 {
   display: none;
 }
+
 .opinions-container {
   margin-bottom: 100px;
 }
+
 .opinions {
   background-color: #292e47;
   display: flex;
@@ -269,11 +294,13 @@ header {
   text-align: center;
   padding: 50px 30px;
 }
+
 .opinions-h2 {
   color: #f2f4fc;
   font-size: 1.8em;
   line-height: 1.5em;
 }
+
 .opinions-text {
   color: #ffc600;
   max-width: 560px;
@@ -285,24 +312,29 @@ header {
   font-weight: 500;
   text-align: center;
 }
+
 .opinions-client {
   display: flex;
   align-items: center;
   margin-top: 40px;
 }
+
 .opinions-client-info {
   display: flex;
   flex-direction: column;
   text-align: start;
   margin-left: 15px;
 }
+
 .client-name {
   color: #a2d6f9;
   font-size: 1.06em;
 }
+
 .client-company {
   color: #f2f4fc;
 }
+
 .profile-img {
   width: 50px;
   height: 50px;
@@ -324,6 +356,7 @@ header {
   background-size: auto;
   background-repeat: no-repeat;
 }
+
 .icon-experience {
   width: 80px;
   height: 80px;
@@ -338,6 +371,7 @@ header {
   background-size: auto;
   background-repeat: no-repeat;
 }
+
 .icon-develop {
   width: 80px;
   height: 80px;
@@ -361,6 +395,7 @@ header {
   text-align: center;
   padding: 50px 30px;
 }
+
 .questions-h1 {
   color: #292e47;
   margin-bottom: 20px;
@@ -373,17 +408,20 @@ header {
   font-size: 1em;
   line-height: 20px;
 }
+
 .form-container {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
+
 .form-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
+
 .container-email {
   position: relative;
 }
@@ -413,6 +451,7 @@ header {
   border: 1px solid #f2f4fc;
   box-shadow: 0 0 5px #6b708d;
 }
+
 .button-submit {
   margin-top: 20px;
   background-color: #072ac8;
@@ -422,12 +461,58 @@ header {
   font-weight: 500;
   font-size: 1.1em;
 }
+
 .button-submit:hover {
   background-color: #292e47;
 }
+
 .form-done,
 .form-fail {
   display: none;
+}
+
+/* ---------------------FOOTER SECTION MOBILE------------------------ */
+.foot-section {
+  margin-top: 60px;
+  padding: 0 30px 100px 30px;
+}
+
+.foot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.foot-content > img {
+  width: 6.25rem;
+  margin-bottom: 30px;
+}
+
+.foot-content > address {
+  color: #6b708d;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.foot-links {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+.foot-links > a {
+  text-decoration: none;
+  color: #6b708d;
+}
+
+.foot-links > a:hover {
+  color: #072ac8;
 }
 
 /* --------------MEDIA QUERIES ---------------- */
@@ -585,32 +670,32 @@ header {
     height: 100px;
   }
 
-  .questions_h1 {
+  .questions-h1 {
     font-size: 2.5em;
   }
-  .formContent {
+  .form-content {
     display: flex;
     flex-direction: row;
   }
 
-  .buttonSubmit {
+  .button-submit {
     margin-top: 0;
     margin-left: 20px;
   }
-  .footSection {
+  .foot-section {
     margin-top: 60px;
     padding: 0 30px 100px 30px;
   }
-  .footContainer {
+  .foot-container {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
     padding: 0 10px;
   }
-  .footContent {
+  .foot-content {
     width: 40%;
   }
-  .footLinks {
+  .foot-links {
     margin-top: 0px;
     align-self: flex-start;
     row-gap: 50px;
@@ -622,17 +707,21 @@ header {
     margin-top: 40px;
     width: 97vw;
   }
+
   main {
     width: 97vw;
     margin: auto;
   }
+
   .burger {
     display: none;
   }
+
   .contact-us {
     display: block;
     transition: 0.5s;
   }
+
   .navBar {
     position: static;
     display: flex;
@@ -645,24 +734,29 @@ header {
     top: 0;
     transition: 0s;
   }
+
   .navMenu {
     display: flex;
     gap: 60px;
     opacity: 1;
     transition: 2s;
   }
+
   .navMenu-item {
     margin: auto;
   }
+
   .hero-section {
     padding: 60px 30px 0px 30px;
   }
+
   .hero-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -670,21 +764,25 @@ header {
     align-items: left;
     text-align: left;
   }
+
   .hero-description {
     font-size: 1.25em;
     text-align: left;
     width: auto;
     padding-right: 35px;
   }
+
   .hero-buttons {
     flex-direction: row-reverse;
     justify-content: left;
     align-items: left;
     align-self: flex-start;
   }
+
   .heroMain-img {
     width: 435px;
   }
+
   .heroCard {
     display: block;
     position: absolute;
@@ -695,6 +793,7 @@ header {
     width: 284px;
     height: 304px;
   }
+
   .heroLike {
     width: 280px;
     height: 282px;
@@ -702,11 +801,13 @@ header {
     bottom: -100px;
     left: 190px;
   }
+
   .logos-grid {
     grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 80px;
     justify-content: space-between;
   }
+
   .amazon {
     display: block;
   }
@@ -716,6 +817,7 @@ header {
     grid-auto-flow: row;
     grid-template-columns: auto auto auto;
   }
+
   .project-img {
     height: 240px;
   }
@@ -727,6 +829,7 @@ header {
     width: 80vw;
     margin: auto;
   }
+
   .heroCard {
     display: block;
     position: absolute;
@@ -737,6 +840,7 @@ header {
     width: 284px;
     height: 304px;
   }
+
   .heroLike {
     width: 280px;
     height: 282px;
@@ -752,5 +856,21 @@ header {
 
   .project-section {
     padding: 0;
+  }
+
+  .projectsArticle {
+    width: 340px;
+  }
+
+  .foot-section {
+    width: 85%;
+    margin: auto;
+    padding: 200px 120px 100px;
+  }
+}
+
+@media only screen and (min-width: 1413px) {
+  .hero-content {
+    margin-right: 110px;
   }
 }
