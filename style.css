@@ -9,3 +9,61 @@ body {
   background-color: #f2f4fc;
   line-height: 20px;
 }
+
+/* ---------------------NAV BAR--------------------- */
+/* ------------------------------------------------- */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 60px;
+  position: relative;
+  z-index: 9;
+}
+
+.navBar_logo > img {
+  width: 60px;
+  height: 18px;
+}
+
+.navMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px; /* 60px */
+  display: none;
+}
+
+.navMenu_item > a {
+  text-decoration: none;
+  color: #6b708d;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.navMenu_item a:hover {
+  color: #072ac8;
+}
+
+.burger {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  z-index: 10;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #292e47;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
