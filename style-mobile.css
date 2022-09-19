@@ -9,6 +9,13 @@ body {
   background-color: #f2f4fc;
   line-height: 20px;
 }
+
+h1,
+h2,
+h3 {
+  color: #292e47;
+}
+
 /* ---------------------NAV BAR MOBILE--------------------- */
 
 header {
@@ -186,10 +193,58 @@ header {
   grid-column-gap: 20px;
   grid-row-gap: 60px;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 
 .amazon {
   display: none;
+}
+
+/* ---------------------PROJECT SECTION FIRTS MOBILE--------------------- */
+.project-section {
+  margin: 100px 0;
+  padding: 0 30px;
+}
+
+.project-section h2 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 1.8em;
+}
+.projectsArticles {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 16px;
+  text-align: left;
+}
+
+.projectsArticles {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.project-text {
+  padding: 40px 20px;
+  color: #6b708d;
+}
+.project-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.text {
+  margin: 20px 30px 40px 0;
+}
+.learn-more {
+  text-decoration: none;
+  color: #072ac8;
+  margin: 100px 0;
 }
 
 /* --------------MEDIA QUERIE FROM 600 WIDTH---------------- */
@@ -264,6 +319,22 @@ header {
   .logos-grid {
     grid-column-gap: 200px;
     grid-row-gap: 100px;
+  }
+
+  .project-section {
+    margin-top: 150px;
+  }
+  .project-section h2 {
+    text-align: left;
+    margin: 50px 0;
+    font-size: 2.3em;
+  }
+
+  .projectsArticles {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto;
+    margin-top: 80px;
   }
 }
 
@@ -355,9 +426,20 @@ header {
   .logos-grid {
     grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 80px;
+    justify-content: space-between;
   }
   .amazon {
     display: block;
+  }
+
+  .projectsArticles {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto;
+  }
+  .project-img {
+    width: 340px;
+    height: 240px;
   }
 }
 
@@ -387,5 +469,6 @@ header {
 
   .logos-grid {
     grid-column-gap: 120px;
+    justify-content: space-between;
   }
 }
