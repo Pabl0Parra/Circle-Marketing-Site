@@ -1,8 +1,8 @@
-# WHAT DID I ACOMPLISH TODAY ?
+# :crossed_flags: WHAT DID I ACOMPLISH TODAY ?
 
 ---
 
-## 19 - 09 - 2022
+:unlock: ## 19 - 09 - 2022
 
 I first created the basic files & folders for the project, such as the Home.html & the style.css files.
 
@@ -22,30 +22,30 @@ Today, I was able to completed the Home page HTML and CSS for mobile responsiven
 
 What I found the **most challenging about today was to code the media queries**, which I had a bit rusty, so it was a great way for me to practice them!.
 
-What I have left to do in the Home page:
+### :memo: What I have left to do in the Home page:
 
 - _Hero image placement on mobile viewport._
 - _Fix testimonials section width on desktop._
 
 This is the final product on desktop viewport:
 
-![alt text](./assets/MidTerm_firstDay_1.png)
-![alt text](./assets/MidTerm_firstDay_2.png)
-![alt text](./assets/MidTerm_firstDay_3.png)
-![alt text](./assets/MidTerm_firstDay_4.png)
-![alt text](./assets/MidTerm_firstDay_5.png)
+![alt text](./assets/readme-images/MidTerm_firstDay_1.png)
+![alt text](./assets/readme-images/MidTerm_firstDay_2.png)
+![alt text](./assets/readme-images/MidTerm_firstDay_3.png)
+![alt text](./assets/readme-images/MidTerm_firstDay_4.png)
+![alt text](./assets/readme-images/MidTerm_firstDay_5.png)
 
 And here on mobile viewport:
 
-![alt text](./assets/Home_mobile_1.png)
-![alt text](./assets/burguer_active.png)
-![alt text](./assets/Home_mobile_2.png)
-![alt text](./assets/Home_mobile_3.png)
-![alt text](./assets/Home_mobile_4.png)
-![alt text](./assets/Home_mobile_5.png)
-![alt text](./assets/Home_mobile_6.png)
-![alt text](./assets/Home_mobile_7.png)
+![alt text](./assets/readme-images/Home_mobile_1.png)
+![alt text](./assets/readme-images/readme-images/burguer_active.png)
+![alt text](./assets/readme-images/Home_mobile_2.png)
+![alt text](./assets/readme-images/Home_mobile_3.png)
+![alt text](./assets/readme-images/Home_mobile_4.png)
+![alt text](./assets/readme-images/Home_mobile_5.png)
+![alt text](./assets/readme-images/Home_mobile_6.png)
+![alt text](./assets/readme-images/Home_mobile_7.png)
 
 ---
 
-## 20 - 09 - 2022
+## :lock: 20 - 09 - 2022

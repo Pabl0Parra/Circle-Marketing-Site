@@ -830,6 +830,10 @@ header {
     margin: auto;
   }
 
+  header {
+    padding: 30px 0;
+  }
+
   .heroCard {
     display: block;
     position: absolute;
