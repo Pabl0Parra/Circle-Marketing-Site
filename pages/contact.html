@@ -47,8 +47,8 @@
         <section class="contact-section">
             <h1>Contact Us</h1>
             <div>
-                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contact-form"
-                    aria-label="Email Form">
+                <form id="post-info-form" name="post-info-form" data-name="Email Form" method="post"
+                    class="contact-form" aria-label="Email Form" action="/action_page.php" target="_blank">
                     <div class="contact-text-wrapper name">
                         <label for="name" class="contact-title">Full Name *</label>
                         <input type="text" class="contact-text-field" maxlength="256" name="name" data-name="Name"
@@ -73,6 +73,13 @@
                     </button>
                 </form>
             </div>
+            <div class="form-done">
+                <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="form-fail">
+                <div>
+                    Oops! Something went wrong while submitting the form.
+                </div>
         </section>
     </main>
     <footer class="foot-section">
@@ -95,5 +102,6 @@
     </footer>
 </body>
 <script src="../scripts/hamburguer.js"></script>
+<script src="../scripts/submitForm.js"></script>
 
 </html>
