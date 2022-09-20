@@ -40,6 +40,38 @@
         </nav>
         <a href="#" class="contact-us">Contact Us</a>
     </header>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <div>
+                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contact-form"
+                    aria-label="Email Form">
+                    <div class="contact-text-wrapper">
+                        <label for="name" class="contact-title">Full Name *</label>
+                        <input type="text" class="contact-text-field w-input" maxlength="256" name="name"
+                            data-name="Name" placeholder="Enter your full name" id="name" required="" />
+                    </div>
+                    <div class="contact-text-wrapper">
+                        <label for="name-2" class="contact-title">Email</label>
+                        <input type="email" class="contact-text-field w-input" maxlength="256" name="name-2"
+                            data-name="Name 2" placeholder="Enter your email" id="name-2" />
+                    </div>
+                    <div class="contact-text-wrapper">
+                        <label for="name-3" class="contact-title">Phone</label><input type="tel"
+                            class="contact-text-field w-input" maxlength="256" name="name-3" data-name="Name 3"
+                            placeholder="Enter your phone" id="name-3" />
+                    </div>
+                    <div class="contact-text-wrapper">
+                        <label for="field" class="contact-title">Message *</label><textarea
+                            placeholder="Write your message here..." maxlength="5000" id="field" name="field"
+                            required="" data-name="field" class="contact-text-field textarea w-input"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" data-wait="Please wait..."
+                        class="button primary-button contact w-button" />
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
