@@ -8,7 +8,6 @@ main {
   margin-top: 6rem;
 }
 /*------------------------ MAIN PROJECT MOBILE -----------------------*/
-
 .project-page {
   display: flex;
   flex-direction: column;
@@ -23,11 +22,13 @@ main {
   line-height: 44px;
   margin-top: 20px;
 }
+
 .project-page-type {
   margin: 30px 0 40px;
   display: flex;
   flex-direction: column;
 }
+
 .project-page-type > h3 {
   font-size: 1.25em;
   margin-bottom: 20px;
@@ -48,6 +49,7 @@ main {
 .image-wrapper {
   position: relative;
 }
+
 .project-page-img {
   display: inline-block;
   width: 100%;
@@ -79,6 +81,7 @@ main {
   .project-page > h1 {
     font-size: 3.75em;
   }
+
   .project-page-type {
     flex-direction: row;
     justify-content: space-between;
