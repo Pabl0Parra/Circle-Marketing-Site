@@ -19,8 +19,12 @@ main {
 .project-page > h1 {
   color: #292e47;
   font-size: 2.5em;
-  line-height: 44px;
+  line-height: 68px;
   margin-top: 20px;
+}
+
+.projectPage > h1::first-letter {
+  text-transform: capitalize;
 }
 
 .project-page-type {
@@ -73,6 +77,10 @@ main {
   text-align: left;
   margin: 80px 0 20px;
   padding: 0;
+}
+
+.project-text-description::first-letter {
+  text-transform: capitalize;
 }
 
 /* ---------------------------- MEDIA QUERIES ------------------------------ */
