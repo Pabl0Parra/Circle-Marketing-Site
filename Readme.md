@@ -24,6 +24,7 @@ What I found the **most challenging about today was to code the media queries**,
 
 ### :memo: What I have left to do in the Home page:
 
+- _Place two images inside Hero section (credit card + thumbs up)_
 - _Hero image placement on mobile viewport._
 - _Fix testimonials section width on desktop._
 
