@@ -28,8 +28,7 @@ header {
 }
 
 .navBar-logo > img {
-  width: 60px;
-  height: 18px;
+  width: 80px;
   cursor: pointer;
 }
 
@@ -90,17 +89,21 @@ header {
 .navMenu {
   display: block;
   margin: auto;
-  text-align: center;
+  text-align: start;
   transition: 0.5s;
-  opacity: 0;
+  padding: 10px 0px;
 }
 
 .navBar.active ul {
   opacity: 1;
+  background-color: #c8c8c8;
+  list-style-type: none;
 }
 
 .navMenu-item {
-  margin: 30px;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 30px;
 }
 
 .navMenu-item::marker {
@@ -111,9 +114,9 @@ header {
   text-decoration: none;
   color: #6b708d;
   font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 22.1px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.1px;
 }
 
 .navMenu-item a:hover {

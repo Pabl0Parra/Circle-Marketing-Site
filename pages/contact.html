@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/jpg" href="../assets/logos/circle favIcon.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style-mobile.css" />
+    <link rel="stylesheet" href="../styles/contact-form.css" />
 </head>
 
 <body>
@@ -41,37 +44,38 @@
         <a href="#" class="contact-us">Contact Us</a>
     </header>
     <main>
-        <section>
+        <section class="contact-section">
             <h1>Contact Us</h1>
             <div>
                 <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contact-form"
                     aria-label="Email Form">
-                    <div class="contact-text-wrapper">
+                    <div class="contact-text-wrapper name">
                         <label for="name" class="contact-title">Full Name *</label>
-                        <input type="text" class="contact-text-field w-input" maxlength="256" name="name"
-                            data-name="Name" placeholder="Enter your full name" id="name" required="" />
+                        <input type="text" class="contact-text-field" maxlength="256" name="name" data-name="Name"
+                            placeholder="Enter your full name" id="name" required="" />
                     </div>
-                    <div class="contact-text-wrapper">
+                    <div class="contact-text-wrapper email sub-grid">
                         <label for="name-2" class="contact-title">Email</label>
-                        <input type="email" class="contact-text-field w-input" maxlength="256" name="name-2"
-                            data-name="Name 2" placeholder="Enter your email" id="name-2" />
+                        <input type="email" class="contact-text-field" maxlength="256" name="name-2" data-name="Name 2"
+                            placeholder="Enter your email" id="name-2" />
                     </div>
-                    <div class="contact-text-wrapper">
+                    <div class="contact-text-wrapper phone sub-grid">
                         <label for="name-3" class="contact-title">Phone</label><input type="tel"
-                            class="contact-text-field w-input" maxlength="256" name="name-3" data-name="Name 3"
+                            class="contact-text-field" maxlength="256" name="name-3" data-name="Name 3"
                             placeholder="Enter your phone" id="name-3" />
                     </div>
-                    <div class="contact-text-wrapper">
+                    <div class="contact-text-wrapper message">
                         <label for="field" class="contact-title">Message *</label><textarea
                             placeholder="Write your message here..." maxlength="5000" id="field" name="field"
-                            required="" data-name="field" class="contact-text-field textarea w-input"></textarea>
+                            required="" data-name="field" class="contact-text-field text-area"></textarea>
                     </div>
-                    <input type="submit" value="Submit" data-wait="Please wait..."
-                        class="button primary-button contact w-button" />
+                    <button type="submit" value="" data-wait="Please wait..." class="btn-submit-form">Submit
+                    </button>
                 </form>
             </div>
         </section>
     </main>
 </body>
+<script src="../scripts/hamburguer.js"></script>
 
 </html>
