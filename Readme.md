@@ -3,7 +3,7 @@
 ---
 
 :unlock: ## 19 - 09 - 2022
-
+---
 I first created the basic files & folders for the project, such as the Home.html & the style.css files.
 
 I then started working on the Home page HTML layout, trying to clone it from the Figma design resource given to us. After a few minutes a little lost, I decided to take the following approach:
@@ -39,7 +39,7 @@ This is the final product on desktop viewport:
 And here on mobile viewport:
 
 ![alt text](./assets/readme-images/Home_mobile_1.png)
-![alt text](./assets/readme-images/readme-images/burguer_active.png)
+![alt text](./assets/readme-images/burguer_active.png)
 ![alt text](./assets/readme-images/Home_mobile_2.png)
 ![alt text](./assets/readme-images/Home_mobile_3.png)
 ![alt text](./assets/readme-images/Home_mobile_4.png)
