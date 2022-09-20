@@ -36,10 +36,15 @@ header {
   background-color: #072ac8;
   color: #f2f4fc;
   font-size: 1em;
-  padding: 15px 30px;
+  padding: 25px 40px;
   text-decoration: none;
   cursor: pointer;
   display: none;
+  font-size: 1.25rem;
+}
+
+.contact-us:hover {
+  background-color: #292e47;
 }
 
 .burger {
@@ -176,6 +181,10 @@ header {
   cursor: pointer;
 }
 
+.hero-buttons-touch:hover {
+  background-color: #292e47;
+}
+
 .hero-buttons-work {
   color: #6b708d;
   font-size: 17px;
@@ -184,7 +193,9 @@ header {
 }
 
 .hero-buttons-work:hover {
-  color: #292e47;
+  padding: 15px 25px;
+  background-color: #292e47;
+  color: #fff;
 }
 
 .heroMain-img {
