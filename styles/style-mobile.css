@@ -270,6 +270,10 @@ header {
   color: #6b708d;
 }
 
+.project-text::first-letter {
+  text-transform: capitalize;
+}
+
 .project-text h3 {
   font-size: 1.5em;
   margin-bottom: 20px;
@@ -277,6 +281,16 @@ header {
 
 .text {
   margin: 20px 30px 40px 0;
+}
+
+.data-body {
+  line-height: 22px;
+  height: 114px;
+  overflow: hidden;
+}
+
+.text::first-letter {
+  text-transform: capitalize;
 }
 
 .learn-more {
