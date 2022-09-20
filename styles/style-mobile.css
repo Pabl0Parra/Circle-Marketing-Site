@@ -198,17 +198,17 @@ header {
   color: #fff;
 }
 
-.heroMain-img {
-  /* width: 560px; */
+.hero-main-img {
+  margin-left: 36px;
   width: 80vw;
   margin-top: 40px;
 }
 
-.heroCard {
+.hero-credit-card {
   display: none;
 }
 
-.heroLike {
+.hero-thumbs-up {
   display: none;
 }
 
@@ -223,7 +223,7 @@ header {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: auto auto;
-  grid-column-gap: 20px;
+  grid-column-gap: 200px;
   grid-row-gap: 60px;
   justify-content: center;
   margin-bottom: 10rem;
@@ -286,7 +286,7 @@ header {
   align-items: flex-end;
 }
 
-/* ---------------------OPINIONS SECTION MOBILE--------------------- */
+/* ---------------------TESTIMONIALS SECTION MOBILE--------------------- */
 
 .emoji1,
 .emoji2,
@@ -400,6 +400,7 @@ header {
 }
 
 /* ---------------------QUESTIONS SECTION MOBILE--------------------- */
+
 .questions {
   background-color: #ffc600;
   display: flex;
@@ -593,20 +594,21 @@ header {
     position: relative;
     max-width: 100vw;
   }
-  .heroMain-img {
+  .hero-main-img {
     width: 550px;
+    margin-left: 0;
   }
-  .heroCard {
+  .hero-credit-card {
     display: block;
     position: absolute;
-    left: -100px;
+    left: -120px;
     top: 30px;
     right: auto;
     bottom: auto;
     width: 294px;
     height: 314px;
   }
-  .heroLike {
+  .hero-thumbs-up {
     display: block;
     width: 290px;
     height: 292px;
@@ -761,13 +763,13 @@ header {
   }
 
   .hero-section {
-    padding: 60px 30px 0px 30px;
+    padding: 60px 60px 60px 30px;
   }
 
   .hero-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -793,11 +795,11 @@ header {
     align-self: flex-start;
   }
 
-  .heroMain-img {
+  .hero-main-img {
     width: 435px;
   }
 
-  .heroCard {
+  .hero-credit-card {
     display: block;
     position: absolute;
     left: -100px;
@@ -808,7 +810,7 @@ header {
     height: 304px;
   }
 
-  .heroLike {
+  .hero-thumbs-up {
     width: 280px;
     height: 282px;
     position: absolute;
@@ -848,7 +850,11 @@ header {
     padding: 30px 0;
   }
 
-  .heroCard {
+  .hero-content {
+    width: 50%;
+  }
+
+  .hero-credit-card {
     display: block;
     position: absolute;
     left: -150px;
@@ -859,7 +865,7 @@ header {
     height: 304px;
   }
 
-  .heroLike {
+  .hero-thumbs-up {
     width: 280px;
     height: 282px;
     position: absolute;
@@ -890,5 +896,12 @@ header {
 @media only screen and (min-width: 1413px) {
   .hero-content {
     margin-right: 110px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  header,
+  main {
+    width: 55%;
   }
 }
