@@ -96,23 +96,23 @@
 }
 
 .input-control.success input {
-  border: 2px solid #09c372;
-  box-shadow: 0 0 4px #09a42a;
+  border: 2px solid #35fa17;
+  box-shadow: 0 0 10px #1fc944;
 }
 
 .input-control.error input {
-  border: 2px solid #ff3860;
-  box-shadow: 0 0 5px #dd1f28;
+  border: 2px solid #f88282;
+  box-shadow: 0 0 8px #db1721;
 }
 
 .input-control.error textarea {
-  border: 2px solid #ff3860;
-  box-shadow: 0 0 5px #dd1f28;
+  border: 2px solid #f88282;
+  box-shadow: 0 0 8px #dd1f28;
 }
 
 .input-control.success textarea {
-  border: 2px solid #09c372;
-  box-shadow: 0 0 4px #09a42a;
+  border: 2px solid #35fa17;
+  box-shadow: 0 0 10px #1fc944;
 }
 
 .input-control .error {
