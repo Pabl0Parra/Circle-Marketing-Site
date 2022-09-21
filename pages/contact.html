@@ -14,6 +14,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/style-mobile.css" />
     <link rel="stylesheet" href="../styles/contact-form.css" />
+    <!-- SCRIPTS -->
+    <script defer src="../js/hamburguer.js"></script>
+    <script defer src="../js/submitForm.js"></script>
 </head>
 
 <body>
@@ -47,30 +50,32 @@
         <section class="contact-section">
             <h1>Contact Us</h1>
             <div>
-                <form id="post-info-form" name="post-info-form" data-name="Email Form" method="post"
-                    class="contact-form" aria-label="Email Form" action="/action_page.php" target="_blank">
-                    <div class="contact-text-wrapper name">
-                        <label for="name" class="contact-title">Full Name *</label>
-                        <input type="text" class="contact-text-field" maxlength="256" name="name" data-name="Name"
-                            placeholder="Enter your full name" id="name" required="" />
+                <form id="form" name="post-info-form" class="contact-form" aria-label="Email Form" action="/">
+                    <div class=" input-control name">
+                        <label for="fName" class="contact-title">Full Name</label>
+                        <input id="fName" type="text" class="contact-text-field" name="fName"
+                            placeholder="Enter your full name" />
+                        <div class="error"></div>
                     </div>
-                    <div class="contact-text-wrapper email">
-                        <label for="name-2" class="contact-title">Email</label>
-                        <input type="email" class="contact-text-field" maxlength="256" name="name-2" data-name="Name 2"
-                            placeholder="Enter your email" id="name-2" />
+                    <div class=" input-control email">
+                        <label for="email" class="contact-title">Email</label>
+                        <input id="email" type="text" class="contact-text-field" name="email"
+                            placeholder="Enter your email" />
+                        <div class="error"></div>
                     </div>
-                    <div class="contact-text-wrapper phone">
-                        <label for="name-3" class="contact-title">Phone</label><input type="tel"
-                            class="contact-text-field" maxlength="256" name="name-3" data-name="Name 3"
-                            placeholder="Enter your phone" id="name-3" />
+                    <div class=" input-control phone">
+                        <label for="phone" class="contact-title">Phone</label>
+                        <input id="phone" type="number" class="contact-text-field" name="phone"
+                            placeholder="Enter your phone" />
+                        <div class="error"></div>
                     </div>
-                    <div class="contact-text-wrapper message">
-                        <label for="field" class="contact-title">Message *</label><textarea
-                            placeholder="Write your message here..." maxlength="5000" id="field" name="field"
-                            required="" data-name="field" class="contact-text-field text-area"></textarea>
+                    <div class="input-control message">
+                        <label for="userMessage" class="contact-title">Message</label>
+                        <textarea placeholder="Write your message here..." maxlength="5000" id="userMessage"
+                            name="userMessage" class="contact-text-field text-area"></textarea>
+                        <div class="error"></div>
                     </div>
-                    <button type="submit" value="" data-wait="Please wait..." class="btn-submit-form">Submit
-                    </button>
+                    <button type="submit" class="btn-submit-form">Submit</button>
                 </form>
             </div>
             <div class="form-done">
@@ -101,7 +106,6 @@
         </section>
     </footer>
 </body>
-<script src="../scripts/hamburguer.js"></script>
-<script src="../scripts/submitForm.js"></script>
+
 
 </html>

@@ -16,7 +16,7 @@ h3 {
   color: #292e47;
 }
 
-/* ---------------------NAV BAR MOBILE--------------------- */
+/* --------------------- NAV BAR MOBILE FIRST --------------------- */
 
 header {
   margin: auto;
@@ -80,7 +80,7 @@ header {
   left: 0;
   right: 0;
   width: 100vw;
-  height: 0; /* 0 */
+  height: 0;
   overflow: hidden;
   transition: 0.5s;
   background-color: #f2f4fc;
@@ -128,7 +128,7 @@ header {
   color: #072ac8;
 }
 
-/* ---------------------HERO SECTION MOBILE--------------------- */
+/* --------------------- HERO SECTION MOBILE FIRST --------------------- */
 .heroSection {
   padding: 0 30px;
 }
@@ -212,7 +212,7 @@ header {
   display: none;
 }
 
-/* ---------------------LOGOS SECTION MOBILE--------------------- */
+/* --------------------- LOGOS SECTION MOBILE FIRST --------------------- */
 
 .logos-section {
   padding: 0 30px;
@@ -233,7 +233,7 @@ header {
   display: none;
 }
 
-/* ---------------------PROJECT SECTION MOBILE--------------------- */
+/* --------------------- PROJECT SECTION MOBILE FIRST --------------------- */
 .project-section {
   margin: 100px 0;
   padding: 0 30px;
@@ -300,7 +300,7 @@ header {
   align-items: flex-end;
 }
 
-/* ---------------------TESTIMONIALS SECTION MOBILE--------------------- */
+/* --------------------- TESTIMONIALS SECTION MOBILE FIRST --------------------- */
 
 .emoji1,
 .emoji2,
@@ -311,6 +311,7 @@ header {
 
 .opinions-container {
   margin-bottom: 100px;
+  max-width: 1200px;
 }
 
 .opinions {
@@ -369,7 +370,7 @@ header {
   border-radius: 50%;
 }
 
-/* ---------------------OUR SERVICES SECTION MOBILE--------------------- */
+/* --------------------- OUR SERVICES SECTION MOBILE FIRST --------------------- */
 .icon-interface {
   width: 80px;
   height: 80px;
@@ -413,7 +414,7 @@ header {
   background-repeat: no-repeat;
 }
 
-/* ---------------------QUESTIONS SECTION MOBILE--------------------- */
+/* --------------------- QUESTIONS SECTION MOBILE FIRST --------------------- */
 
 .questions {
   background-color: #ffc600;
@@ -500,7 +501,7 @@ header {
   display: none;
 }
 
-/* ---------------------FOOTER SECTION MOBILE------------------------ */
+/* --------------------- FOOTER SECTION MOBILE FIRST ------------------------ */
 .foot-section {
   margin-top: 60px;
   padding: 0 30px 100px 30px;
@@ -544,7 +545,9 @@ header {
   color: #072ac8;
 }
 
-/* --------------MEDIA QUERIES ---------------- */
+/* ------------------------------------------------ */
+/* ----------------MEDIA QUERIES------------------- */
+/* ------------------------------------------------ */
 
 @media only screen and (min-width: 375px) {
   .opinions {

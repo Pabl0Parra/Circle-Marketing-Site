@@ -42,7 +42,7 @@
   grid-area: message;
 }
 
-.contact-text-wrapper {
+.input-control {
   display: flex;
   flex-direction: column;
 }
@@ -94,6 +94,33 @@
 .btn-submit-form:hover {
   background-color: #292e47;
 }
+
+.input-control.success input {
+  border: 2px solid #09c372;
+  box-shadow: 0 0 4px #09a42a;
+}
+
+.input-control.error input {
+  border: 2px solid #ff3860;
+  box-shadow: 0 0 5px #dd1f28;
+}
+
+.input-control.error textarea {
+  border: 2px solid #ff3860;
+  box-shadow: 0 0 5px #dd1f28;
+}
+
+.input-control.success textarea {
+  border: 2px solid #09c372;
+  box-shadow: 0 0 4px #09a42a;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 10px;
+  height: 12px;
+}
+
 /* ------------------------------------------------ */
 /* ----------------MEDIA QUERIES------------------- */
 /* ------------------------------------------------ */
