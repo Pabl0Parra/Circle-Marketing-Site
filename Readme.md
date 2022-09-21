@@ -49,13 +49,15 @@ And here on mobile viewport:
 
 ---
 
-## :lock: 20 - 09 - 2022
+## :unlock: 20 - 09 - 2022
 ---
 Today I was able to complete the rest of the HTML for the Projects page & the Contact page. I then worked on making them mobile responsive first and worked my way up to desktop viewport. My approach was the same than yesterday.
 
 After finishing both HTML & CSS, I moved on to implement the fetch capabilities for the projects section of the Home page and I was able to achieve the desired results.
 
-What I found the **most challenging about today was implementing the fetching capabilities**, nonetheless, I was able to complete it.
+What I found **the most challenging about today was implementing the fetching capabilities** for the projects section of the Home page, nonetheless, I pulled it off.
+
 ---
 
+## :lock 21 - 09 - 2022
 
