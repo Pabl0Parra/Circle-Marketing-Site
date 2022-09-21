@@ -1,15 +1,31 @@
 const form = document.getElementById("post_info-form");
 
-form.addEventListener("submit", function (event) {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
   if (validateInputs()) {
     Post();
+    resetForm();
   }
-  form.reset();
-  return false;
 });
 
-function Post(event) {
+const resetForm = () => {
+  // let element = document.getElementsByClassName("input-control.succes");
+  // element.classList.remove("input-control.success");
+
+  let elements = document.getElementsByTagName("input");
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].value = "";
+    elements[i].style.borderColor = "transparent";
+    elements[i].style.boxShadow = "none";
+  }
+
+  let messageElement = document.getElementById("field");
+  messageElement.value = "";
+  messageElement.style.borderColor = "transparent";
+  messageElement.style.boxShadow = "none";
+};
+
+function Post() {
   let new_title = document.getElementById("name").value;
   let new_body = document.getElementById("field").value;
   let userid = document.getElementById("phone").value;
@@ -33,10 +49,10 @@ function Post(event) {
     })
 
     .then(() => {
-      const log = document.getElementById("formDome");
-      log.textContent = ` Thank you! Your submission has been received!`;
+      // const log = document.getElementById("form-done");
+      // log.textContent = ` Thank you! Your submission has been received!`;
 
-      event.preventDefault();
+      alert(` Thank you! Your submission has been received!`);
     })
     .catch((err) => {
       console.error(err);
