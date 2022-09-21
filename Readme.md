@@ -59,5 +59,5 @@ What I found **the most challenging about today was implementing the fetching ca
 
 ---
 
-## :lock 21 - 09 - 2022
+## :lock: 21 - 09 - 2022
 
