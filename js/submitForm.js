@@ -3,15 +3,12 @@ const form = document.getElementById("post_info-form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   if (validateInputs()) {
-    Post();
+    post();
     resetForm();
   }
 });
 
 const resetForm = () => {
-  // let element = document.getElementsByClassName("input-control.succes");
-  // element.classList.remove("input-control.success");
-
   let elements = document.getElementsByTagName("input");
   for (let i = 0; i < elements.length; i++) {
     elements[i].value = "";
@@ -25,7 +22,8 @@ const resetForm = () => {
   messageElement.style.boxShadow = "none";
 };
 
-function Post() {
+// POST to push data externally into JSON file
+const post = () => {
   let new_title = document.getElementById("name").value;
   let new_body = document.getElementById("field").value;
   let userid = document.getElementById("phone").value;
@@ -49,18 +47,15 @@ function Post() {
     })
 
     .then(() => {
-      // const log = document.getElementById("form-done");
-      // log.textContent = ` Thank you! Your submission has been received!`;
-
       alert(` Thank you! Your submission has been received!`);
     })
     .catch((err) => {
       console.error(err);
+      alert(`There was an error submitting your form, please try again!`);
     });
-}
+};
 
-// Get the input fields
-// const form = document.getElementById("form");
+// Get the DOM elements fields to be validated
 const phone = document.getElementById("phone");
 const firstName = document.getElementById("name");
 const email = document.getElementById("email");
@@ -75,6 +70,7 @@ const setError = (element, message) => {
   inputControl.classList.remove("success");
 };
 
+// Display validation success in DOM
 const setSuccess = (element) => {
   const inputControl = element.parentElement;
   const errorDisplay = inputControl.querySelector(".error");
@@ -84,6 +80,7 @@ const setSuccess = (element) => {
   inputControl.classList.remove("error");
 };
 
+// Display validation error in DOM
 const isValidFirstName = (firstName) => {
   const firstNameRegEx = /^[a-z ,.'-]+$/;
 
@@ -103,6 +100,7 @@ const isValidPhone = (phone) => {
   return phoneRegEx.test(phone);
 };
 
+// Validate DOM elements (returns boolean for above check)
 const validateInputs = () => {
   const firstNameValue = firstName.value.trim();
   const emailValue = email.value.trim();
