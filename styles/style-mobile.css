@@ -300,6 +300,13 @@ header {
   align-items: flex-end;
 }
 
+.learn-more-back {
+  text-decoration: none;
+  color: yellow;
+  margin: 20px 0;
+  align-items: flex-end;
+}
+
 /* --------------------- TESTIMONIALS SECTION MOBILE FIRST --------------------- */
 
 .emoji1,
