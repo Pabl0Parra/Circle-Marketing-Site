@@ -67,4 +67,4 @@ What I found the **most challenging about today was how to set up the submission
 
 At the end of the day I realized the projects page has some extra functionality that mine doesn't so this will be the first thing I tackle in the morning.
 
-What I found the **most challenging about today was 
+
