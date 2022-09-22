@@ -59,5 +59,12 @@ What I found **the most challenging about today was implementing the fetching ca
 
 ---
 
-## :lock: 21 - 09 - 2022
+## :unlock: 21 - 09 - 2022
+---
+On this day I added validations and posting capabilities to the form. I then fixed some small issues with the CSS & responsiveness. I also change the Home.html to index.html and restructure the folders as well.
 
+What I found the **most challenging about today was how to set up the submission process for the form**. I finally decided to implement a validation condition that if passed it would trigger the rest of the logic and submit the form.
+
+At the end of the day I realized the projects page has some extra functionality that mine doesn't so this will be the first thing I tackle in the morning.
+
+What I found the **most challenging about today was 
