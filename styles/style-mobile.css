@@ -251,7 +251,7 @@ header {
   grid-column-gap: 40px;
   grid-row-gap: 16px;
   text-align: left;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .projectsArticle {
@@ -563,6 +563,13 @@ header {
   .opinions-h2 {
     font-size: 1.69em;
   }
+
+  .projectsArticles {
+    /* display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+    grid-column-gap: 40px; */
+    grid-row-gap: 75px;
 }
 
 @media only screen and (min-width: 414px) {
@@ -672,9 +679,10 @@ header {
 
   .projectsArticles {
     display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: auto auto;
+    /* grid-auto-flow: row; */
+    /* grid-template-columns: auto auto; */
     margin-top: 80px;
+    grid-row-gap: 50px;
   }
 
   .opinions-container {

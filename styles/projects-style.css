@@ -86,7 +86,7 @@ main {
 
 .flip-card {
   perspective: 1000px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .flip-card-inner {
@@ -137,12 +137,21 @@ main {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .flip-card {
+    perspective: 1000px;
+    margin-bottom: 200px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   /* .project-page-section {
     margin-top: 10rem;
   } */
+  .flip-card {
+    perspective: 1000px;
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
