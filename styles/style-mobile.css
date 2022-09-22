@@ -143,6 +143,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 0 30px;
 }
 
 .hero-content h1 {
@@ -220,7 +221,7 @@ header {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: auto auto;
-  grid-column-gap: 200px;
+  grid-column-gap: 60px;
   grid-row-gap: 60px;
   justify-content: center;
   margin-bottom: 10rem;
@@ -557,8 +558,9 @@ header {
 
 @media only screen and (min-width: 414px) {
   .logosGrid {
-    grid-column-gap: 100px;
-    grid-row-gap: 60px;
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
+    justify-content: center;
   }
 }
 
@@ -596,6 +598,10 @@ header {
 @media only screen and (min-width: 768px) {
   .hero-container {
     max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
   .hero-content h1 {
     font-size: 3.5em;
@@ -607,6 +613,8 @@ header {
   .hero-img {
     position: relative;
     max-width: 100vw;
+    left: 20px;
+    top: 1px;
   }
   .hero-main-img {
     width: 550px;
@@ -635,8 +643,9 @@ header {
     margin-top: 150px;
   }
   .logos-grid {
-    grid-column-gap: 200px;
+    grid-column-gap: 100px;
     grid-row-gap: 100px;
+    justify-content: center;
   }
 
   .project-section {

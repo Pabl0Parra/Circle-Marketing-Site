@@ -9,10 +9,8 @@ async function getData() {
 }
 
 async function renderData() {
-  
   let info = await getData();
   let dataCard = "";
-  // let body = "";
   info.forEach((item) => {
     let cardInfo = `<article class="projectsArticle">
                         <img
