@@ -14,9 +14,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/style-mobile.css" />
     <link rel="stylesheet" href="../styles/contact-form.css" />
-    <!-- SCRIPTS -->
+    <!-- JS -->
     <script defer src="../js/hamburguer.js"></script>
     <script defer src="../js/submitForm.js"></script>
+
 </head>
 
 <body>
@@ -50,41 +51,39 @@
         <section class="contact-section">
             <h1>Contact Us</h1>
             <div>
-                <form id="form" name="post-info-form" class="contact-form" aria-label="Email Form" action="/">
-                    <div class=" input-control name">
-                        <label for="fName" class="contact-title">Full Name</label>
-                        <input id="fName" type="text" class="contact-text-field" name="fName"
-                            placeholder="Enter your full name" />
+                <form id="post_info-form" name="post_info-form" data-name="Email Form" method="post"
+                    class="contact-form" aria-label="Email Form" action="/action_page.php" target="_blank">
+                    <div class="name input-control">
+                        <label for="name" class="contact-title">Full Name *</label>
+                        <input type="text" class="contact-text-field" maxlength="256" name="name" data-name="Name"
+                            placeholder="Enter your full name" id="name" />
                         <div class="error"></div>
                     </div>
-                    <div class=" input-control email">
+                    <div class="email input-control ">
                         <label for="email" class="contact-title">Email</label>
-                        <input id="email" type="text" class="contact-text-field" name="email"
-                            placeholder="Enter your email" />
+                        <input type="text" class="contact-text-field" maxlength="256" name="email" data-name="Name 2"
+                            placeholder="Enter your email" id="email" />
                         <div class="error"></div>
                     </div>
-                    <div class=" input-control phone">
-                        <label for="phone" class="contact-title">Phone</label>
-                        <input id="phone" type="number" class="contact-text-field" name="phone"
-                            placeholder="Enter your phone" />
+                    <div class="input-control phone">
+                        <label for="phone" class="contact-title">Phone</label><input type="number"
+                            class="contact-text-field" maxlength="256" name="phone" data-name="Name 3"
+                            placeholder="Enter your phone" id="phone" />
                         <div class="error"></div>
                     </div>
-                    <div class="input-control message">
-                        <label for="userMessage" class="contact-title">Message</label>
-                        <textarea placeholder="Write your message here..." maxlength="5000" id="userMessage"
-                            name="userMessage" class="contact-text-field text-area"></textarea>
+                    <div class="message input-control">
+                        <label for="field" class="contact-title">Message *</label><textarea
+                            placeholder="Write your message here..." maxlength="5000" id="field" name="field"
+                            data-name="field" class="contact-text-field text-area"></textarea>
                         <div class="error"></div>
                     </div>
-                    <button type="submit" class="btn-submit-form">Submit</button>
+                    <button type="submit" value="" data-wait="Please wait..." class="btnForm btn-submit-form">
+                        Submit
+                    </button>
                 </form>
             </div>
-            <div class="form-done">
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="form-fail">
-                <div>
-                    Oops! Something went wrong while submitting the form.
-                </div>
+            <div id="form-done"></div>
+            <div class="form-failed"></div>
         </section>
     </main>
     <footer class="foot-section">
@@ -106,6 +105,5 @@
         </section>
     </footer>
 </body>
-
 
 </html>

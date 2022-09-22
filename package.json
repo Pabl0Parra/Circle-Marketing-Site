@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 {
   "scripts": {
     "build": "webpack --config webpack.config.js"
   }
 }
+=======
+{}
+>>>>>>> 495ac8e6b091fe56146e849b6a1c1ccc691eea67
