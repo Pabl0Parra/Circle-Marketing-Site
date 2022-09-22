@@ -10,7 +10,6 @@ async function getData() {
 
 async function renderData() {
   let info = await getData();
-  //console.log(info);
   let dataCard = "";
   let body = "";
   info.forEach((item) => {

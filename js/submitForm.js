@@ -9,14 +9,14 @@ form.addEventListener("submit", (event) => {
 });
 
 const resetForm = () => {
-  let elements = document.getElementsByTagName("input");
+  const elements = document.getElementsByTagName("input");
   for (let i = 0; i < elements.length; i++) {
     elements[i].value = "";
     elements[i].style.borderColor = "transparent";
     elements[i].style.boxShadow = "none";
   }
 
-  let messageElement = document.getElementById("field");
+  const messageElement = document.getElementById("field");
   messageElement.value = "";
   messageElement.style.borderColor = "transparent";
   messageElement.style.boxShadow = "none";
