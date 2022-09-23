@@ -19,7 +19,6 @@ h3 {
 /* --------------------- NAV BAR MOBILE FIRST --------------------- */
 
 header {
-  /* margin: auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -251,7 +250,6 @@ header {
   grid-column-gap: 40px;
   grid-row-gap: 16px;
   text-align: left;
-  /* margin-bottom: 10rem; */
 }
 
 .projectsArticle {
@@ -565,10 +563,6 @@ header {
   }
 
   .projectsArticles {
-    /* display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: auto;
-    grid-column-gap: 40px; */
     grid-row-gap: 75px;
   }
 
@@ -593,10 +587,6 @@ header {
     .hero-buttons-touch {
       margin: auto;
     }
-
-    /* .hero-main-img {
-    margin-left: 130px;
-  } */
 
     .logosGrid {
       grid-column-gap: 100px;
@@ -679,8 +669,7 @@ header {
 
     .projectsArticles {
       display: grid;
-      /* grid-auto-flow: row; */
-      /* grid-template-columns: auto auto; */
+
       margin-top: 80px;
       grid-row-gap: 50px;
     }
@@ -894,7 +883,6 @@ header {
     }
 
     .hero-content {
-      /* width: 80%; */
       margin: -13px;
       padding-top: 60px;
     }
