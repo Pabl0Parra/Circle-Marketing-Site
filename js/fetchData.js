@@ -1,5 +1,5 @@
 async function getData() {
-  let urlLimit3 = [`http://jsonplaceholder.typicode.com/posts/?_limit=3`];
+  let urlLimit3 = [`https://jsonplaceholder.typicode.com/posts/?_limit=3`];
   try {
     let res = await fetch(urlLimit3);
     return await res.json();
