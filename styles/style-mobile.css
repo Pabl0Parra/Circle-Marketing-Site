@@ -570,385 +570,386 @@ header {
     grid-template-columns: auto;
     grid-column-gap: 40px; */
     grid-row-gap: 75px;
-}
-
-@media only screen and (min-width: 414px) {
-  .logosGrid {
-    grid-column-gap: 60px;
-    grid-row-gap: 40px;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 568px) {
-  .hero-content h1 {
-    font-size: 2.3em;
-  }
-  .hero-buttons {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-  }
-  .hero-buttons-touch {
-    margin: auto;
   }
 
-  /* .hero-main-img {
+  @media only screen and (min-width: 414px) {
+    .logosGrid {
+      grid-column-gap: 60px;
+      grid-row-gap: 40px;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (min-width: 568px) {
+    .hero-content h1 {
+      font-size: 2.3em;
+    }
+    .hero-buttons {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+    .hero-buttons-touch {
+      margin: auto;
+    }
+
+    /* .hero-main-img {
     margin-left: 130px;
   } */
 
-  .logosGrid {
-    grid-column-gap: 100px;
-    grid-row-gap: 60px;
+    .logosGrid {
+      grid-column-gap: 100px;
+      grid-row-gap: 60px;
+    }
+
+    .project-section h2 {
+      margin-bottom: 3rem;
+    }
+    .opinions-h2 {
+      font-size: 2.6em;
+    }
+
+    .input-email {
+      width: 400px;
+    }
   }
 
-  .project-section h2 {
-    margin-bottom: 3rem;
-  }
-  .opinions-h2 {
-    font-size: 2.6em;
+  @media only screen and (min-width: 768px) {
+    .hero-container {
+      max-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .hero-content h1 {
+      font-size: 3.5em;
+    }
+    .hero-description {
+      font-size: 1.24em;
+      width: 600px;
+    }
+    .hero-img {
+      position: relative;
+      max-width: 100vw;
+      left: 20px;
+      top: 1px;
+    }
+    .hero-main-img {
+      width: 550px;
+    }
+    .hero-credit-card {
+      display: block;
+      position: absolute;
+      left: 20px;
+      top: 40px;
+      right: auto;
+      bottom: auto;
+      width: 294px;
+      height: 314px;
+    }
+    .hero-thumbs-up {
+      display: block;
+      width: 290px;
+      height: 292px;
+      position: absolute;
+      bottom: -150px;
+      left: 480px;
+    }
+
+    .logos-section {
+      margin-top: 150px;
+    }
+    .logos-grid {
+      grid-column-gap: 100px;
+      grid-row-gap: 100px;
+      justify-content: center;
+    }
+
+    .project-section {
+      margin-top: 150px;
+    }
+    .project-section h2 {
+      text-align: left;
+      margin: 50px 0;
+      font-size: 2.3em;
+      margin-bottom: 2rem !important;
+    }
+
+    .projectsArticles {
+      display: grid;
+      /* grid-auto-flow: row; */
+      /* grid-template-columns: auto auto; */
+      margin-top: 80px;
+      grid-row-gap: 50px;
+    }
+
+    .opinions-container {
+      position: relative;
+    }
+    .opinions-h2 {
+      width: 70%;
+      margin-top: 40px;
+    }
+
+    .emoji1 {
+      display: block;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .emoji2 {
+      display: block;
+      position: absolute;
+      left: 5%;
+      bottom: 5%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .emoji3 {
+      display: block;
+      position: absolute;
+      right: 5%;
+      top: 10%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .emoji4 {
+      display: block;
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .questions-h1 {
+      font-size: 2.5em;
+    }
+    .form-content {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .button-submit {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    .foot-section {
+      margin-top: 60px;
+      padding: 0 30px 100px 30px;
+    }
+    .foot-container {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      padding: 0 10px;
+    }
+    .foot-content {
+      width: 40%;
+    }
+    .foot-links {
+      margin-top: 0px;
+      align-self: flex-start;
+      row-gap: 50px;
+    }
   }
 
-  .input-email {
-    width: 400px;
-  }
-}
+  @media only screen and (min-width: 1024px) {
+    header {
+      margin-top: 40px;
+      width: 97vw;
+      margin-left: 10px;
+    }
 
-@media only screen and (min-width: 768px) {
-  .hero-container {
-    max-width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .hero-content h1 {
-    font-size: 3.5em;
-  }
-  .hero-description {
-    font-size: 1.24em;
-    width: 600px;
-  }
-  .hero-img {
-    position: relative;
-    max-width: 100vw;
-    left: 20px;
-    top: 1px;
-  }
-  .hero-main-img {
-    width: 550px;
-  }
-  .hero-credit-card {
-    display: block;
-    position: absolute;
-    left: 20px;
-    top: 40px;
-    right: auto;
-    bottom: auto;
-    width: 294px;
-    height: 314px;
-  }
-  .hero-thumbs-up {
-    display: block;
-    width: 290px;
-    height: 292px;
-    position: absolute;
-    bottom: -150px;
-    left: 480px;
-  }
+    main {
+      width: 97vw;
+      margin: auto;
+    }
 
-  .logos-section {
-    margin-top: 150px;
-  }
-  .logos-grid {
-    grid-column-gap: 100px;
-    grid-row-gap: 100px;
-    justify-content: center;
-  }
+    .burger {
+      display: none;
+    }
 
-  .project-section {
-    margin-top: 150px;
-  }
-  .project-section h2 {
-    text-align: left;
-    margin: 50px 0;
-    font-size: 2.3em;
-    margin-bottom: 2rem !important;
-  }
+    .contact-us {
+      display: block;
+      transition: 0.5s;
+    }
 
-  .projectsArticles {
-    display: grid;
-    /* grid-auto-flow: row; */
-    /* grid-template-columns: auto auto; */
-    margin-top: 80px;
-    grid-row-gap: 50px;
-  }
+    .navBar {
+      position: static;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      margin: auto;
+      margin-left: 30px;
+      top: 0;
+      transition: 0s;
+    }
 
-  .opinions-container {
-    position: relative;
-  }
-  .opinions-h2 {
-    width: 70%;
-    margin-top: 40px;
-  }
+    .navMenu {
+      display: flex;
+      gap: 60px;
+      opacity: 1;
+      transition: 2s;
+    }
 
-  .emoji1 {
-    display: block;
-    position: absolute;
-    left: 5%;
-    top: 10%;
-    width: 100px;
-    height: 100px;
-  }
+    .navMenu-item {
+      margin: auto;
+    }
 
-  .emoji2 {
-    display: block;
-    position: absolute;
-    left: 5%;
-    bottom: 5%;
-    width: 100px;
-    height: 100px;
-  }
+    .hero-section {
+      padding: 60px 60px 60px 30px;
+    }
 
-  .emoji3 {
-    display: block;
-    position: absolute;
-    right: 5%;
-    top: 10%;
-    width: 100px;
-    height: 100px;
-  }
+    .hero-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-  .emoji4 {
-    display: block;
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    width: 100px;
-    height: 100px;
-  }
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      text-align: left;
+    }
 
-  .questions-h1 {
-    font-size: 2.5em;
-  }
-  .form-content {
-    display: flex;
-    flex-direction: row;
+    .hero-description {
+      font-size: 1.25em;
+      text-align: left;
+      width: auto;
+    }
+
+    .hero-buttons {
+      flex-direction: row-reverse;
+      justify-content: left;
+      align-items: left;
+      align-self: flex-start;
+    }
+
+    .hero-main-img {
+      width: 435px;
+    }
+
+    .hero-credit-card {
+      display: block;
+      position: absolute;
+      left: -70px;
+      top: 10px;
+      right: auto;
+      bottom: auto;
+      width: 284px;
+      height: 304px;
+    }
+
+    .hero-thumbs-up {
+      width: 280px;
+      height: 260px;
+      position: absolute;
+      bottom: -100px;
+      left: 340px;
+    }
+
+    .logos-grid {
+      grid-template-columns: auto auto auto auto auto;
+      grid-column-gap: 80px;
+      justify-content: space-between;
+    }
+
+    .amazon {
+      display: block;
+    }
+
+    .projectsArticles {
+      display: grid;
+      grid-auto-flow: row;
+      grid-template-columns: auto auto auto;
+    }
+
+    .project-img {
+      height: 240px;
+    }
   }
 
-  .button-submit {
-    margin-top: 0;
-    margin-left: 20px;
-  }
-  .foot-section {
-    margin-top: 60px;
-    padding: 0 30px 100px 30px;
-  }
-  .foot-container {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    padding: 0 10px;
-  }
-  .foot-content {
-    width: 40%;
-  }
-  .foot-links {
-    margin-top: 0px;
-    align-self: flex-start;
-    row-gap: 50px;
-  }
-}
+  @media only screen and (min-width: 1366px) {
+    header,
+    main {
+      width: 80vw;
+      margin: auto;
+    }
 
-@media only screen and (min-width: 1024px) {
-  header {
-    margin-top: 40px;
-    width: 97vw;
-    margin-left: 10px;
-  }
+    header {
+      padding-top: 30px;
+    }
 
-  main {
-    width: 97vw;
-    margin: auto;
-  }
+    .hero-content {
+      /* width: 80%; */
+      margin: -13px;
+      padding-top: 60px;
+    }
 
-  .burger {
-    display: none;
-  }
+    .hero-main-img {
+      margin-left: 0;
+    }
+    .hero-credit-card {
+      display: block;
+      position: absolute;
+      left: -120px;
+      right: auto;
+      bottom: auto;
+      width: 284px;
+      height: 304px;
+    }
 
-  .contact-us {
-    display: block;
-    transition: 0.5s;
-  }
+    .hero-thumbs-up {
+      width: 280px;
+      height: 282px;
+      position: absolute;
+      bottom: -156px;
+      left: 290px;
+    }
 
-  .navBar {
-    position: static;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    margin: auto;
-    margin-left: 30px;
-    top: 0;
-    transition: 0s;
-  }
+    .logos-grid {
+      grid-column-gap: 120px;
+      justify-content: space-between;
+    }
 
-  .navMenu {
-    display: flex;
-    gap: 60px;
-    opacity: 1;
-    transition: 2s;
+    .project-section {
+      padding: 0;
+    }
+
+    .projectsArticle {
+      width: 340px;
+    }
+
+    .foot-section {
+      width: 85%;
+      margin: auto;
+      padding: 200px 120px 100px;
+    }
   }
 
-  .navMenu-item {
-    margin: auto;
+  @media only screen and (min-width: 1413px) {
+    .hero-content {
+      margin-right: 50px;
+    }
   }
 
-  .hero-section {
-    padding: 60px 60px 60px 30px;
-  }
-
-  .hero-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-  }
-
-  .hero-description {
-    font-size: 1.25em;
-    text-align: left;
-    width: auto;
-  }
-
-  .hero-buttons {
-    flex-direction: row-reverse;
-    justify-content: left;
-    align-items: left;
-    align-self: flex-start;
-  }
-
-  .hero-main-img {
-    width: 435px;
-  }
-
-  .hero-credit-card {
-    display: block;
-    position: absolute;
-    left: -70px;
-    top: 10px;
-    right: auto;
-    bottom: auto;
-    width: 284px;
-    height: 304px;
-  }
-
-  .hero-thumbs-up {
-    width: 280px;
-    height: 260px;
-    position: absolute;
-    bottom: -100px;
-    left: 340px;
-  }
-
-  .logos-grid {
-    grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 80px;
-    justify-content: space-between;
-  }
-
-  .amazon {
-    display: block;
-  }
-
-  .projectsArticles {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: auto auto auto;
-  }
-
-  .project-img {
-    height: 240px;
-  }
-}
-
-@media only screen and (min-width: 1366px) {
-  header,
-  main {
-    width: 80vw;
-    margin: auto;
-  }
-
-  header {
-    padding-top: 30px;
-  }
-
-  .hero-content {
-    /* width: 80%; */
-    margin: -13px;
-    padding-top: 60px;
-  }
-
-  .hero-main-img {
-    margin-left: 0;
-  }
-  .hero-credit-card {
-    display: block;
-    position: absolute;
-    left: -120px;
-    right: auto;
-    bottom: auto;
-    width: 284px;
-    height: 304px;
-  }
-
-  .hero-thumbs-up {
-    width: 280px;
-    height: 282px;
-    position: absolute;
-    bottom: -156px;
-    left: 290px;
-  }
-
-  .logos-grid {
-    grid-column-gap: 120px;
-    justify-content: space-between;
-  }
-
-  .project-section {
-    padding: 0;
-  }
-
-  .projectsArticle {
-    width: 340px;
-  }
-
-  .foot-section {
-    width: 85%;
-    margin: auto;
-    padding: 200px 120px 100px;
-  }
-}
-
-@media only screen and (min-width: 1413px) {
-  .hero-content {
-    margin-right: 50px;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  header,
-  main {
-    width: 55%;
+  @media only screen and (min-width: 1920px) {
+    header,
+    main {
+      width: 55%;
+    }
   }
 }
