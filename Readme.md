@@ -65,6 +65,9 @@ On this day I added validations and posting capabilities to the form. I then fix
 
 What I found the **most challenging about today was how to set up the submission process for the form**. I finally decided to implement a validation condition that if passed it would trigger the rest of the logic and submit the form.
 
-At the end of the day I realized the projects page has some extra functionality that mine doesn't so this will be the first thing I tackle in the morning.
+---
+## :unlock: 22 - 09 - 2022
+---
+Today I deployed the site and it´s now live at [CircleAgency](https://mycircle-agency.netlify.app/)
 
 
