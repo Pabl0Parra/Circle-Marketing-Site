@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../styles/projects-style.css" />
     <!-- JS -->
     <script defer src="../js/hamburguer.js"></script>
-    <!-- <script defer src="../js/fetchData.js"></script> -->
+
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <div class="burger">
                 <span class="bar"><a href="../index.html"></a></span>
                 <span class="bar"><a href="#"></a></span>
-                <span class="bar"><a href="#"></a></span>
+                <span class="bar"><a href="./contact.html"></a></span>
             </div>
             <div class="navBar">
                 <ul class="navMenu">
@@ -37,7 +37,7 @@
                         <a href="./projects.html">Projects</a>
                     </li>
                     <li class="navMenu-item">
-                        <a href="#">Services</a>
+                        <a href="./contact.html">Services</a>
                     </li>
                 </ul>
             </div>
@@ -58,8 +58,9 @@
                 <article>
                     <div class="image-wrapper">
                         <img src="../assets/projects-section/1.jpg" alt="simplify project image"
-                            class="project-page-img" />
-                        <img src="../assets/projects-section/1.jpg" alt="imagen" class="project-page-img-shadow" />
+                            class="project-page-img" loading="lazy" />
+                        <img src="../assets/projects-section/1.jpg" alt="imagen" class="project-page-img-shadow"
+                            loading="lazy" />
                     </div>
                     <div>
                         <div class="project-text-description">
@@ -95,7 +96,8 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <article class="projectsArticle flip-card-front">
-                            <img src="../assets/projects-section/1.jpg" alt="project 1 image" class="project-img" />
+                            <img src="../assets/projects-section/1.jpg" alt="project 1 image" class="project-img"
+                                loading="lazy" />
                             <div class="project-text">
                                 <h3>Orbit</h3>
                                 <div class="text">
@@ -106,7 +108,7 @@
                             </div>
                         </article>
                         <article class="projectsArticle flip-card-back">
-                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" />
+                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" loading="lazy" />
                             <div class="project-text">
                                 <h3 class="dark-side">Welcome to the dark side</h3>
                                 <div class="text  dark-side">
@@ -121,7 +123,8 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <article class="projectsArticle flip-card-front">
-                            <img src="../assets/projects-section/2.jpg" alt="project 2 image" class="project-img" />
+                            <img src="../assets/projects-section/2.jpg" alt="project 2 image" class="project-img"
+                                loading="lazy" />
                             <div class="project-text">
                                 <h3>DashCoin</h3>
                                 <div class="text">
@@ -132,7 +135,7 @@
                             </div>
                         </article>
                         <article class="projectsArticle flip-card-back">
-                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" />
+                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" loading="lazy" />
                             <div class="project-text">
                                 <h3 class="dark-side">Welcome to the dark side</h3>
                                 <div class="text  dark-side">
@@ -147,7 +150,8 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <article class="projectsArticle flip-card-front">
-                            <img src="../assets/projects-section/3.jpg" alt="project 3 image" class="project-img" />
+                            <img src="../assets/projects-section/3.jpg" alt="project 3 image" class="project-img"
+                                loading="lazy" />
                             <div class="project-text">
                                 <h3>Vectorify</h3>
                                 <div class="text">
@@ -158,7 +162,7 @@
                             </div>
                         </article>
                         <article class="projectsArticle flip-card-back">
-                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" />
+                            <img src="../assets/vader_2.jpg" alt="vader image" class="project-img" loading="lazy" />
                             <div class="project-text">
                                 <h3 class="dark-side">Welcome to the dark side</h3>
                                 <div class="text dark-side">
@@ -181,10 +185,11 @@
                         <div class="container-email">
                             <span class="email-icon-container"><img src="../assets/newsletter/icon/mail.svg"
                                     alt="email icon" class="email-icon" /></span>
-                            <input class="input-email" type="text" placeholder="Enter your email" name="mail"
-                                required />
+                            <input id="userEmail" class="input-email" type="text" placeholder="Enter your email"
+                                name="mail" required />
                         </div>
-                        <input type="submit" value="Subscribe" class="button-submit" />
+                        <button onclick="subscribeUser()" type="button" value="Subscribe"
+                            class="button-submit">Subscribe</button>
                     </form>
                     <div class="form-done" tabindex="-1" role="region" aria-label="Email Form success">
                         <div>Thank you! Your submission has been received!</div>

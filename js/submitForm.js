@@ -47,6 +47,8 @@ const post = () => {
     })
 
     .then(() => {
+      const log = document.getElementById("form-done");
+      log.textContent = ` Thank you! Your submission has been received!`;
       alert(` Thank you! Your submission has been received!`);
     })
     .catch((err) => {
@@ -61,6 +63,7 @@ const firstName = document.getElementById("name");
 const email = document.getElementById("email");
 const userMessage = document.getElementById("field");
 
+// Display validation error in DOM
 const setError = (element, message) => {
   const inputControl = element.parentElement;
   const errorDisplay = inputControl.querySelector(".error");
@@ -80,7 +83,6 @@ const setSuccess = (element) => {
   inputControl.classList.remove("error");
 };
 
-// Display validation error in DOM
 const isValidFirstName = (firstName) => {
   const firstNameRegEx = /^[a-z ,.'-]+$/;
 
