@@ -47,8 +47,6 @@ const post = () => {
     })
 
     .then(() => {
-      const log = document.getElementById("form-done");
-      log.textContent = ` Thank you! Your submission has been received!`;
       alert(` Thank you! Your submission has been received!`);
     })
     .catch((err) => {
